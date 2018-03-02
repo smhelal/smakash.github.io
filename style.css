@@ -1,0 +1,387 @@
+/*---------------------------------
+Template Name : Your CV HTML Template
+Temoplate URI: http://rajsdiru.com/
+Description: Sigma Corporate HTML5 Template one of the most latest Corporat HTML5 Template.
+Author: AmarIT
+Author URI: http://rajsdiru.com/
+*/
+/* ....................................
+1. Them default CSS
+2. Header Area Start Here
+3. About Area Start Here
+4. Skill Area Start Here
+......................................*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+html,
+body{
+    height: 100%;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: baseline;
+    line-height: 26px;
+    font-weight: 400;
+    background: #ecf0f1;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.alignleft{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 26px;
+}
+.alignright{
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 26px;
+}
+a:focus{
+    outline: 0px solid;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.fix{
+    overflow: hidden;
+}
+p{
+    margin: 0 0 26px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 26px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;   
+}
+a{
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+}
+a:hover{
+    color: #00cc66;
+    text-decoration: none;
+}
+a:active,
+a:hover{
+   outline: 0 none;
+   color: #00cc66;
+}
+ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+::-moz-selection{
+    background: #00cc66;
+    text-shadow: none;
+}
+::selection{
+   background: #00cc66;
+    text-shadow: none;  
+}
+.browserupgrade{
+    margin: 26px;
+    background: #00cc66;
+    color: #333;
+    padding: 26px 0;
+}
+.acurate{
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------------------
+2. Header Area Start Here
+---------------------------------------*/
+.header-area{
+   background: #4c545f; 
+    padding: 25px 0 450px;
+}
+.header-area .logo-area h1{
+    margin-bottom: 0px;
+}
+.header-area .logo-area h1 a{
+    font-size: 30px;
+    color: #00cc66;
+    text-transform: uppercase;
+    display: block;
+}
+.header-area .logo-area h1 a span{
+    font-size: 20px;
+    color: #ffffff;
+}
+.header-area .menu-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.header-area .menu-area ul li{
+    display: inline-block;
+    position: relative;
+}
+.header-area .menu-area ul li a{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+.header-area .menu-area ul li.active a:after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: #00cc66;
+    margin: auto;
+    bottom: -5px;
+}
+.header-area .menu-area ul li a:after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #00cc66;
+    margin: auto;
+    bottom: -5px;
+    transition: all .3s;
+}
+.header-area .menu-area ul li a:hover:after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: #00cc66;
+    margin: auto;
+    bottom: -5px;
+}
+.header-area .hambernenu a i{
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+/*-------------------------------------
+3. About Area Start Here
+---------------------------------------*/
+.about-us-area{
+    margin-top: -400px;
+}
+.about-us-area>.container{
+    width: 960px;    
+}
+.about-content{
+    background: #ffffff;
+    overflow: hidden;
+    height: 445px;
+    -webkit-box-shadow: 1px 5px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 16px 0px rgba(0,0,0,0.75);
+    padding: 40px;
+}
+.about-me-picture img{
+    border-radius: 5px;
+    border: 1px solid #26cc66;
+    padding: 2px;
+}
+.about-text .about-text-top{   
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d4d5d6;
+}
+.about-text .about-text-top p{
+    font-size: 18px;
+   margin-bottom: 0px;
+}
+.about-text .about-text-top h2{
+   font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.about-text .about-text-top h2 span{
+  font-weight: 600;
+}
+.about-information ul{
+     margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.about-information ul li{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 300;    
+}
+.about-information ul li span{
+    font-weight: 600;
+    color: #000000;
+    display: inline-block;
+    width: 112px;    
+}
+.about-information ul li:last-child span{
+    background: #26cc63;
+    padding: 2px;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+.about-social-media{
+    background: #26cc66;
+    overflow: hidden;
+}
+.social-media ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.social-media ul li{
+    display: inline-block;
+    margin: 30px;
+}
+.social-media ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    transition: all .3s;
+}
+.social-media ul li a:hover{
+    color: #333333;
+}
+.download-button{
+    width: 100%;
+    margin: 35px 0;
+    display: block;
+    text-align: center;   
+}
+.download-button a{
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    transition: all .3s;
+}
+.download-button a:hover{
+    background: #26cc66;  
+    border: 1px solid #26cc66;
+    color: #fff;
+}
+/*-------------------------------------
+4. Skill Area Start Here
+---------------------------------------*/
+.skrill-area{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.skrill-area>.container{
+    width: 74%;
+}
+.skill-content{
+    margin-bottom: 8%;
+}
+.skrill-area .skill-content p{
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+}
+.skill-title h2{
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+    border: 1px solid #26cc66;
+    display: initial;
+    padding: 5px 5px;
+}
+
+.skill-features{
+    background: #fff;
+    border: 3px solid #ddd;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+.skill-content-3{
+    overflow: hidden;
+}
+.skill .progress .lead{
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    top: -30px;
+    z-index: 99;
+}
+.skill .progress{
+    background: #f0f0f0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 5px;
+    margin: 30px 0 50px 0;
+    overflow: visible;
+    position: relative;
+}
+.skill .progress-bar > span{
+    background: #333 none repeat scroll 0 0;
+    float: right;
+    font-size: 11px;
+    margin-right: 10px;
+    margin-top: -25px;
+    position: relative;
+    padding: 0 5px;
+}
+
+.skill .progress-bar > span:before,
+.skill .progress-bar > span:after{
+    border: medium solid transparent;
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 100%;
+    width: 0;
+}
+.skill .progress-bar > span:before{
+    border-top-color: #333;
+    border-width: 5px;
+    left: 5px;
+    margin-left: -5px;
+}
+.holax-shop h3,
+.we-are-good-at h3{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.skill .progress:nth-child(1) .progress-bar{
+    background: #4caf50;
+}
+.skill .progress:nth-child(2) .progress-bar{
+    background: #4caf50;
+}
+.skill .progress:nth-child(3) .progress-bar{
+    background: #4caf50;
+}
